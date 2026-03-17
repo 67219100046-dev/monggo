@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('aaa.png','bbb.png','ccc.png','ddd.png')">
+<header>
+  <table width="1500" border="1">
+    <tbody>
+      <tr>
+        <td><header><img src="c.png" width="1500" height="400" alt=""/>
+          <table width="693" height="106" border="1">
+            <tbody>
+              <tr>
+                <td width="200"><a href="hom.index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','aaa.png',1)"><img src="aa.png" alt="" width="200" height="150" id="Image2"></a></td>
+                <td width="200"><a href="porduct.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','bbb.png',1)"><img src="bb.png" alt="" width="200" height="150" id="Image3"></a></td>
+                <td width="200"><a href="applymen.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','ccc.png',1)"><img src="cc.png" alt="" width="200" height="150" id="Image4"></a></td>
+                <td width="65"><a href="makeplay.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','ddd.png',1)"><img src="dd.png" alt="" width="200" height="150" id="Image5"></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </header></td>
+      </tr>
+    </tbody>
+  </table>
+</header>
+<table width="860" height="397" border="1">
+  <tbody>
+    <tr>
+      <td width="320">ชื่อ</td>
+      <td width="524"><input type="text" name="textfield" id="textfield"></td>
+    </tr>
+    <tr>
+      <td>นามสกุล</td>
+      <td><input type="text" name="textfield2" id="textfield2"></td>
+    </tr>
+    <tr>
+      <td>ที่อยู่</td>
+      <td><input type="text" name="textfield3" id="textfield3"></td>
+    </tr>
+    <tr>
+      <td>e-mail</td>
+      <td><input type="email" name="email" id="email"></td>
+    </tr>
+    <tr>
+      <td>โทร</td>
+      <td><input type="tel" name="tel" id="tel"></td>
+    </tr>
+    <tr>
+      <td>วันเดือนปีเกิด</td>
+      <td><input type="month" name="month" id="month"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>username</td>
+      <td><input type="text" name="textfield4" id="textfield4"></td>
+    </tr>
+    <tr>
+      <td>password</td>
+      <td><input type="password" name="password" id="password"></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
